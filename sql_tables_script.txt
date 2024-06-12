@@ -1,0 +1,21 @@
+CREATE TABLE "Movies" (
+	"id"	INTEGER,
+	"name"	TEXT,
+	"year"	INTEGER,
+	"description"	TEXT,
+	"image"	BLOB,
+	"createdAt"	NUMERIC,
+	"updatedAt"	NUMERIC,
+	"UserId"	INTEGER,
+	PRIMARY KEY("id")
+)
+
+CREATE TABLE "Users" (
+	"id"	INTEGER,
+	"name"	TEXT,
+	"email"	TEXT,
+	"password"	TEXT,
+	"createdAt"	NUMERIC,
+	"updatedAt"	NUMERIC,
+	PRIMARY KEY("id")
+)
